@@ -29,6 +29,7 @@ This reaches out to the stock screener on [FinViz.com](https://finviz.com/) (usi
     High (>50)      high        False
     Under 5         u5          False
     ...
+    
 ### **Set-FVFilters**
 Using the filters from [`Get-FVFilters`](#get-fvfilters), this allows you to set which ones you want, eg: Forward P/E: Over 10, P/B: Under 2, etc. You can pipe the previous command to this one and then specify which filter you what to set and which value you want to set it to (if you only want one filter). There's also a `Hashtable` parameter where you can specify as many filters as you want, along with the values.
 #### Example 1
